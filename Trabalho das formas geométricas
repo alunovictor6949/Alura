@@ -1,0 +1,25 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  let x1 = 50;
+  let y1 = 150;
+  let lado = 100;
+  fill(255, 0, 0);
+  rect(x1, y1, lado, lado);
+  let x2 = 220;
+  let y2 = 200;
+  let raio = 60;
+  fill(0, 255, 0);
+  ellipse(x2, y2, raio * 2, raio * 2);
+  let x3 = 350;
+  let y3 = 150;
+  let x4 = 300;
+  let y4 = 250;
+  let x5 = 400;
+  let y5 = 250;
+  fill(0, 0, 255);
+  triangle(x3, y3, x4, y4, x5, y5);
+}
